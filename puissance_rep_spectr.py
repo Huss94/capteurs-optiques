@@ -14,7 +14,7 @@ if os.path.isfile("mean_detector_value.txt"):
 else:
     mean_det_values = mean_detector_value(is_dictionnary=False)
 
-ResSpectral = load_data_file("TPCO/RepspectraleDSS.txt")
+ResSpectral = load_data_file("RepspectraleDSS.txt")
 
 
 max_l = len(mean_det_values)
