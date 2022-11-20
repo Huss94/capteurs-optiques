@@ -39,7 +39,7 @@ def compute_tab_rs(img_window = None):
 
 
 plt.figure()
-plt.plot(wave_l, puissances)
+plt.plot(wave_l[:-1], puissances[:-1])
 
 plt.title("Puissance lumineuse a la sorite de la sphère en fonction de la longueur d'onde")
 plt.ylabel("Puissance (W)")
